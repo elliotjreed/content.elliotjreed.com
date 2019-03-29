@@ -4,7 +4,7 @@ If you run a competition page or a voucher service for example, you might want t
 
 There is an excellent list curated by Martin Cech at [github.com/martenson/disposable-email-domains](https://github.com/martenson/disposable-email-domains) which I've used in a PHP package for anyone to use.
 
-To install the package simply add it via [`composer`](https://getcomposer.org/download/):
+To install the [package](https://packagist.org/packages/elliotjreed/disposable-emails-filter) simply add it via [`composer`](https://getcomposer.org/download/):
 
 ```bash
 composer require elliotjreed/disposable-emails-filter
@@ -38,4 +38,6 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 ```
 
-Check out [github.com/martenson/disposable-email-domains](https://github.com/martenson/disposable-email-domains) for examples in other languages, including [Python](https://pypi.org/project/disposable-email-domains);
+The source code is available at [github.com/elliotjreed/disposable-emails-filter-php](https://github.com/elliotjreed/disposable-emails-filter-php).
+
+Check out [github.com/martenson/disposable-email-domains](https://github.com/martenson/disposable-email-domains) for examples in other languages, including [Python](https://pypi.org/project/disposable-email-domains).
