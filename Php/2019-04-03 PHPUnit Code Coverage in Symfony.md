@@ -53,7 +53,7 @@ To run the tests based on this configuration using standard PHPUnit run:
 vendor/bin/phpunit -c phpunit.xml --coverage-html ./coverage --coverage-text
 ```
 
-If you are using Symfony's `test-pack` or `simple-phpunit` (`phpunit-bridge`), tinstead run:
+If you are using Symfony's `test-pack` or `simple-phpunit` (`phpunit-bridge`), instead run:
 
 ```bash
 vendor/bin/simple-phpunit -c phpunit.xml --coverage-html ./coverage --coverage-text
