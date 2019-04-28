@@ -50,7 +50,7 @@ sudo dd bs=512k if=kali-linux-2019.1a-amd64.iso of=/dev/sdc status=progress
 
 Now you will have a fully working live Kali Linux USB, but it won't have a persistent volume allowing you to save files to it.
 
-To allow us to save files, update the system, etc., we neec to use the free space on the USB as a persistent volume.
+To allow us to save files, update the system, etc., we need to use the free space on the USB as a persistent volume.
 
 There are many graphical tools to do this on Linux (eg. `gparted`), but for this I'll use the command line and `cfdisk`:
 
@@ -133,4 +133,4 @@ sudo umount /dev/sdc3
 
 Reboot your computer and select your USB drive from the boot menu, selecting `Kali USB Persistence` from the Kali boot screen.
 
-Stuck on what to do? Maybe try running `netdiscover` and see if there are any unknown devices on you network.
+Stuck on what to do? Maybe try running `netdiscover` and see if there are any unknown devices on your network.
