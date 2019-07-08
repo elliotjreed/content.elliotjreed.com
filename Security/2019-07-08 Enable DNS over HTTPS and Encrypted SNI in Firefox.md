@@ -1,5 +1,9 @@
 # Enable DNS over HTTPS (DoH) and Encrypted SNI (ESNI) on Firefox
 
+You can check your current browser security settings by visiting: [www.cloudflare.com/ssl/encrypted-sni/](https://www.cloudflare.com/ssl/encrypted-sni/).
+
+You will likely see a warning for at least "Secure DNS" and "Encrypted SNI". Here's how to solve those on Firefox.
+
 ## DNS over HTTPS
 
 DNS (Domain Name Server) lookups are what translates a user-friendly domain name (eg. www.elliotjreed.com) into an IP address (eg. 178.62.70.70).
