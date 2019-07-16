@@ -22,7 +22,7 @@ The second potential issue is that your system clock may be wrong. To check the 
 date
 ```
 
-If it is incorrect I would recommend censuring your timezone is set correctly by changing the option via `raspi-config`:
+If it is incorrect I would recommend ensuring your timezone is set correctly by changing the option via `raspi-config`:
 
 ```bash
 sudo raspi-config
